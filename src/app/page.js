@@ -1,3 +1,9 @@
+import { NavBarComponent } from "./components/navbar"
+
 export default function Home() {
-  return <main>Hola bolu</main>;
+  return (
+    <main>
+      <NavBarComponent />
+    </main>
+  )
 }
