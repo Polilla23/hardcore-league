@@ -6,7 +6,6 @@ import PosicionesGrid from "../grids/posicionesGrid";
 import AsistidoresGrid from "../grids/asistidoresGred";
 
 import Selector from "../selector/selector";
-import { Card, CardBody } from "@nextui-org/react";
 
 export const PrincipalCard = () => {
   const [selectedLeague, setselectedLeague] = useState("liga1");
@@ -19,7 +18,7 @@ export const PrincipalCard = () => {
     <div className="flex justify-center items-center">
       <div className="w-3/4">
         {/* Renderizar el componente correspondiente según la opción seleccionada */}
-        <div className="flex flex-wrap gap-4 p-4">
+        <div className="grid grid-cols-3 gap-4 p-6">
           <PosicionesGrid league={selectedLeague} />
           <GoleadoresGrid league={selectedLeague} />
           <AsistidoresGrid league={selectedLeague} />

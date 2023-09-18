@@ -32,7 +32,7 @@ const PosicionesGrid = ({ league }) => {
   const leagueData = dataPorLiga[league];
 
   return (
-    <Card>
+    <Card className="p-4">
       <CardBody>
         <h2 className="text-2xl font-semibold mb-4">Posiciones</h2>
         <Table removeWrapper aria-label="Tabla de posiciones">
