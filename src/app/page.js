@@ -1,10 +1,10 @@
-import { NavBarComponent } from "./components/navbar";
 import { PrincipalCard } from "./components/card/card";
+import { Header } from "./components/header";
 
 export default function Home() {
   return (
     <main>
-      <NavBarComponent />
+      <Header />
       <PrincipalCard />
     </main>
   );
