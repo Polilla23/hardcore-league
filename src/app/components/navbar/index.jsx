@@ -13,10 +13,10 @@ import {
   DropdownItem
 } from "@nextui-org/react";
 import { ChevronDown } from "@/app/utils/ChevronDownLogo";
-
-import NextLink from "next/link";
+import { ClubLogosGrid } from "../grids/clubLogosGrid";
 import { MainLogo } from "../../utils/pageLogo";
 import { SearchLogo } from "../../utils/searchLogo";
+import NextLink from "next/link";
 
 export const NavBarComponent = () => {
   return (
